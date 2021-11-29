@@ -1,0 +1,66 @@
+body{
+    background:lightslategrey;
+    font-family: Georgia;
+}
+
+header{
+    border-bottom: 8px solid rgb(136, 154, 173);
+    text-align: center;
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    padding: 24px;
+}
+
+.container{
+    margin: auto;
+    width: 30%;
+    margin-top: 18px;
+    border: 2px solid rgb(136, 154, 173);
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    border-style: dotted;
+}
+
+.form-head{
+    background-color: rgb(136, 154, 173);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 8px;
+    font-size: large;
+}
+
+select{
+    margin-top: 10px;
+    width: 40%;
+    text-align: center;
+    padding: 3px;
+    color: lightslategrey;
+    border: 2px solid lightslategrey;
+    border-radius: 6px;
+    font-family: Georgia;
+}
+
+.paragrafo{
+    white-space: pre-line;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: rgb(136, 154, 173);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+footer ul{
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width:600px){ 
+}

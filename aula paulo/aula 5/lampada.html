@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada</title>
+
+    <style>
+        body{text-align: center;
+            font-family: Arial;}
+    </style>
+</head>
+<body>
+    <h1>Controle da Lâmpada</h1>
+    <img id="imagem" src="img/lampada_desligada.png" alt="lâmpada">
+    <br>
+    <button onclick="ligar()">Ligar</button>
+    <button onclick="desligar()">Desligar</button>
+
+    <script>
+        const ligar = function(){
+            document.getElementById('imagem').src = "img/lampada_ligada.png" 
+        }
+        
+        const desligar = function(){
+            document.getElementById('imagem').src = "img/lampada_desligada.png" 
+        }
+    </script>
+    
+</body>
+</html>

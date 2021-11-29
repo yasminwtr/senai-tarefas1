@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+
+    <style> body{text-align: center};</style>
+</head>
+<body>
+    <h1>Maior e menor</h1>
+    <label>X:</label>
+    <br>
+    <input type="number" id="x">
+    <br>
+    <br>
+    <label>Y:</label> 
+    <br>
+    <input type="number" id="y">
+    <br><br>
+    <button onclick="verificar()">Verificar</button>
+
+    <script>
+
+        const verificar = function(){
+            let x = document.getElementById('x').value
+            let y = document.getElementById('y').value
+            let a = x * 2
+            let b = y * 3
+
+        if (a >= b){
+            alert("O resultado de " + x + " * 2 = " + a + " é maior ou igual ao resultado de " + y + " * 3 = " + b)
+        } else
+            alert("O resultado de " + y + " * 3 = " + b + " é maior ou igual ao resultado de " + x + " * 2 = " + a)
+        }
+
+
+    </script>
+    
+</body>
+</html>

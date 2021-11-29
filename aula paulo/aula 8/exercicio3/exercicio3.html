@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="exercicio3.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz Game</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="quiz1">
+        <label>1- Qual é o recorde de voo de uma galinha?</label><br>
+        <input type="radio" class='respostaUnica' name="rsp1" id="1" onclick="quiz1('1')"><label>13 segundos</label><br>
+        <input type="radio" class='respostaUnica' name="rsp1" id="1" onclick="quiz1('2')"><label>11 segundos</label><br>
+        <input type="radio" class='respostaUnica' name="rsp1" id="1" onclick="quiz1('2')"><label>17 segundos</label><br>
+        <input type="radio" class='respostaUnica' name="rsp1" id="1" onclick="quiz1('2')"><label>10 segundos</label><br>
+        <div>
+            <p id="resp"></p>
+            <img id="img1" class="imagem">
+        </div>    
+        </div>
+
+        <div class="quiz2">
+        <label>2- Por quantos ossos o esqueleto humano é formado?</label><br>
+        <input type="radio" class='respostaUnica' name="rsp2" id="2" onclick="quiz2('2')"><label>270</label><br>
+        <input type="radio" class='respostaUnica' name="rsp2" id="2" onclick="quiz2('1')"><label>206</label><br>
+        <input type="radio" class='respostaUnica' name="rsp2" id="2" onclick="quiz2('2')"><label>223</label><br>
+        <input type="radio" class='respostaUnica' name="rsp2" id="2" onclick="quiz2('2')"><label>210</label><br>
+        <div>
+            <p id="resp2"></p>
+            <img id="img2" class="imagem">
+        </div>
+        </div>
+
+        <div class="quiz3">
+        <label>3- Qual é o animal que não possui cordas vocais?</label><br>
+        <input type="radio" class='respostaUnica' name="rsp3" id="3" onclick="quiz3('2')"><label>Gato</label><br>
+        <input type="radio" class='respostaUnica' name="rsp3" id="3" onclick="quiz3('2')"><label>Leão</label><br>
+        <input type="radio" class='respostaUnica' name="rsp3" id="3" onclick="quiz3('1')"><label>Girafa</label><br>
+        <input type="radio" class='respostaUnica' name="rsp3" id="3" onclick="quiz3('2')"><label>Cachorro</label><br>
+        <div>
+            <p id="resp3"></p>
+            <img id="img3" class="imagem">
+        </div>
+        </div>
+
+        <div class="quiz4">
+        <label>4- Quem foi o primeiro homem a pisar na lua?</label><br>
+        <input type="radio" class='respostaUnica' name="rsp4" id="4" onclick="quiz4('4')"><label>Buzz Aldrin</label><br>
+        <input type="radio" class='respostaUnica' name="rsp4" id="4" onclick="quiz4('3')"><label>Shrek</label><br>
+        <input type="radio" class='respostaUnica' name="rsp4" id="4" onclick="quiz4('2')"><label>Eugene Cernan</label><br>
+        <input type="radio" class='respostaUnica' name="rsp4" id="4" onclick="quiz4('1')"><label>Neil Armstrong</label><br>
+        <div>
+            <p id="resp4"></p>
+            <img id="img4" class="imagem">
+        </div>
+        </div>
+
+        <div class="quiz5">
+        <label>5- É verdade que o Shrek tem a sua própria estrela na calçada da fama de Hollywood?</label><br>
+        <input type="radio" class='respostaUnica' name="rsp5" id="5" onclick="quiz5('2')"><label>Não</label><br>
+        <input type="radio" class='respostaUnica' name="rsp5" id="5" onclick="quiz5('2')"><label>Real</label><br>
+        <input type="radio" class='respostaUnica' name="rsp5" id="5" onclick="quiz5('2')"><label>Feiki</label><br>
+        <input type="radio" class='respostaUnica' name="rsp5" id="5" onclick="quiz5('1')"><label>Sim</label><br>
+        <div>
+            <p id="resp5"></p>
+            <img id="img5" class="imagem"> 
+        </div>       
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+        <li>E-mail: melhoresquizzes@domundo.com</li>
+        <li>Telefone: (48) 99199-9929</li>
+        </ul>   
+    </footer>
+
+    <script src="exercicio3.js"></script>
+    
+</body>
+</html>

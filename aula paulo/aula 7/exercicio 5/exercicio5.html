@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5</title>
+    <link rel="stylesheet" href="exercicio5.css">
+</head>
+<body>
+    <header>
+        <h1>Minhas Roupas.COM</h1>
+    </header>   
+    
+    <div class="container">
+        <div class="form-head">
+            Gratificação
+        </div>
+        <div class="form-body">
+            <div class="row">
+                <input type="number" id="pA" placeholder="Quantidade vendida de Produto A"></input>
+            </div>
+
+            <div class="row">
+                <input type="number" id="pB" placeholder="Quantidade vendida de Produto B"></input>
+            </div>
+
+            <div class="row">
+                <input type="number" id="salario" placeholder="Salário"></input>
+            </div>
+            <div class="row">
+                <textarea id="resultado" rows="5" readonly></textarea>
+            </div>
+        </div>
+
+        <div class="form-button">
+            <button onclick="calcular()" type="button" class="btn-calcular">Calcular</button>
+        </div>
+    </div>
+
+    <script src="exercicio5.js"></script>
+</body>
+</html>

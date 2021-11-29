@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+</head>
+<body>
+
+    <script>
+        let shampooA = prompt("Informe o valor do Shampoo A")
+        let shampooB = prompt("Informe o valor do Shampoo B")
+        let idade = prompt("Informe a sua idade")
+
+        let calcular = parseFloat(shampooA) + parseFloat(shampooB)
+        let desconto1 = calcular - (calcular * 0.05)
+        let desconto2 = calcular - (calcular * 0.1)
+
+        if (idade >= 18){
+            alert("O valor dos dois shampoos ficou: " + calcular + " reais. \nDesconto de 5% aplicado. O valor foi para: " + desconto1 + " reais.")
+        } else
+            alert("O valor dos dois shampoos ficou: " + calcular + " reais. \nDesconto de 10% aplicado. O valor foi para: " + desconto2 + " reais.")
+        
+
+    </script>
+    
+</body>
+</html>

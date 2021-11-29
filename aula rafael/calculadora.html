@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+
+    <input type="number" id="1">
+    <br>
+    <button onclick="somar()">+</button>
+    <button onclick="diminuir()">-</button>
+    <button onclick="multiplicar()">x</button>
+    <button onclick="dividir()">÷</button>
+    <br>
+    <input type="number" id="2">
+    <div id="divResultado">Resultado</div>
+
+    <script>
+    let n1 = document.getElementById('1')
+    let n2 = document.getElementById('2')
+
+    function somar(){
+        let soma = Number(n1.value) + Number(n2.value)
+        document.getElementById('divResultado').innerHTML = soma
+    }
+
+    function diminuir(){
+        let diminuicao = n1.value - n2.value
+        document.getElementById('divResultado').innerHTML = diminuicao
+    }
+
+    function multiplicar(){
+        let multiplicacao = n1.value * n2.value
+        document.getElementById('divResultado').innerHTML = multiplicacao
+    }
+
+    function dividir(){
+        let divisao = n1.value / n2.value
+        document.getElementById('divResultado').innerHTML = divisao
+    }
+
+    </script>
+
+
+<style>
+        body{
+            background-color: rosybrown;
+            color: white;
+            text-align: center;
+            margin: 10pc;
+        }
+
+        input{
+            border-radius: 10px;
+            border: 2px solid rgb(145, 95, 95);
+            background-color: rgb(170, 131, 131);
+            padding: 5px;
+            text-align: center;
+        }
+
+        button{
+            border-radius: 10px;
+            border: 2px solid rgb(145, 95, 95);
+            margin: 5px;
+        }
+
+        div{
+            background-color: rgb(170, 131, 131);
+            border: 2px solid rgb(145, 95, 95);
+            border-radius: 10px;
+            margin: 50px;
+            padding: 5px;
+    
+        }
+    </style>
+
+</body>
+</html>

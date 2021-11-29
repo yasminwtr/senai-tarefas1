@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 7</title>
+    <link rel="stylesheet" href="css/exercicio7.css"></link>
+</head>
+<body>
+    <h1>Produtos</h1>
+    <label>Selecione um produto:</label>
+    <div class="container">
+    <select id="produto">
+        <option value="televisao">Televisão</option>
+        <option value="notebook">Notebook</option>
+        <option value="celular">Celular</option>
+    </select>
+</div>
+
+    <p></p>
+
+    <script>
+        let select = document.querySelector('#produto')
+        let paragrafo = document.querySelector('p')
+
+        select.addEventListener('change', setProduto)
+
+        function setProduto(){
+            let opcao = select.value
+            console.log(opcao);
+
+            if (opcao === 'televisao'){
+                paragrafo.textContent = "Televisão: \nModelo: Samsung Smart TV 85 Neo QLED 4K \nPreço: 26.999,00 \nQuantidade em estoque: 23"
+            } else if (opcao === 'notebook'){
+                paragrafo.textContent = "Notebook: \nModelo: Notebook Acer 15,6 I5-1035G1 8GB 256GB \nPreço: 4.199,90 \nQuantidade em estoque: 50"
+            } else {
+                paragrafo.textContent = "Celular: \nModelo: Galaxy A32 128GB \nPreço: 1.619,10 \nQuantidade em estoque: 12"
+            }
+        }
+    </script>
+</body>
+</html>

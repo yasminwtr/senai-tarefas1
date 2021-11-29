@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    margin: 0px;
+    font-family: 'Trebuchet MS';
+}
+
+header{
+    text-align: center;
+    background-color: #581845;
+    padding: 12px;
+    font-size: large;
+    margin-bottom: 4%;
+}
+
+.container{
+    text-align: justify;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.quiz1{
+    width: 30%;
+    margin: auto;
+    border: 2px solid #8AB531;
+    background-color: #c71157;
+    border-radius: 5px;
+    padding: 8px;
+    align-content: center;
+}
+
+.quiz2{
+    width: 30%;
+    margin: 2% auto;
+    border: 2px solid #ffc305;
+    background-color: #ff5733;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.quiz3{
+    width: 30%;
+    margin-top: 18px;
+    margin: 2% auto;
+    border: 2px solid #c71157;
+    background-color: #8AB531;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.quiz4{
+    width: 30%;
+    margin-top: 18px;
+    margin: 2% auto;
+    border: 2px solid #ff5733;
+    background-color: #54A5D1;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.quiz5{
+    width: 30%;
+    margin-top: 18px;
+    margin: 2% auto;
+    border: 2px solid #54A5D1;
+    background-color: #ffc305;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+p{
+    text-align: center;
+    white-space: pre-line;
+}
+
+img{
+    width: 50%;
+}
+
+footer{
+    background-color: #581845;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5.5%;
+}
+    
+footer ul{
+        color: rgb(255, 255, 255);
+    }
+
+.imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

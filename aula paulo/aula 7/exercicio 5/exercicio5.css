@@ -1,0 +1,100 @@
+body{
+    margin: 0%;
+    font-family: Arial;
+    text-align: center;
+    background-color: cornsilk;
+}
+
+header{
+    border-bottom: 3px solid coral;
+    background-color: cornsilk;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+header h1{
+    color: coral;
+    padding: 24px;
+}
+
+.container{
+    margin: auto;
+    width: 30%;
+    margin-top: 18px;
+    border: 1px solid coral;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.form-head{
+    background-color: rgb(255, 242, 188);
+    color: coral;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: large;
+}
+
+.row{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.row input{
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    color: coral;
+    border-radius: 10px;
+    border: 1px solid coral;
+}
+
+.row input::placeholder{
+    color: coral;
+    font-family: Arial;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0px;
+}
+
+.row input:focus{
+    outline: none;
+    border: 1px solid coral;
+    background-color: rgb(255, 242, 188);
+}
+
+.row textarea{
+    width: 100%;
+    color: coral;
+    border-radius: 10px;
+    border: 1px solid coral;
+    resize: none;
+    font-family: Arial;
+    text-align: justify;
+    padding: 8px;
+}
+
+.row textarea:focus{
+    outline: none;
+}
+
+.form-button{
+    margin-top: 8px;
+}
+
+.btn-calcular{
+    width: 90%;
+    padding: 4px;
+    background-color: rgb(255, 242, 188);
+    color: coral;
+    font-family: Arial;
+    border: 1px solid coral;
+    border-radius: 5px;
+}
+
+.btn-calcular:hover{
+    background-color: rgb(255, 238, 163);
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício</title>
+</head>
+<body>
+    <h1>Média</h1>
+
+    <label>Nota 1</label><br>
+    <input type="number" id="nota1"><br>
+    <label>Nota 2</label><br>
+    <input type="number" id="nota2"><br><br>
+    <button onclick="calcular()">Calcular</button><br><br>
+    <div id="resultado">Resultado da média</div>
+
+<script>
+    function calcular(){
+        let n1 = Number(document.getElementById('nota1').value)
+        let n2 = Number(document.getElementById('nota2').value)
+        let media = (n1 + n2) / 2
+
+        if(media >= 7){
+            document.getElementById('resultado').innerHTML = "Parabés, você foi aprovado! Sua média foi: " + media.toFixed(1)
+        } else {
+            document.getElementById('resultado').innerHTML = "Parabéns, você foi reprovado! Sua média foi: " + media.toFixed(1)
+        }
+    }
+</script>
+
+<style>
+    body{
+        background-color:rgb(128, 150, 100);
+        font-family: Georgia;
+        text-align: center;
+        color: rgb(75, 55, 37);
+        font-weight: bold;
+        margin: 10pc;
+    }
+
+    input{
+        background-color: rgb(205, 233, 168);
+        text-align: center;
+        border: rgb(255, 255, 255);
+        border-radius: 12px 0px 12px 0px;
+        padding: 3px;
+        color: rgb(71, 83, 54);
+        font-family: Georgia;
+    }
+
+    button{
+        background-color: rgb(205, 233, 168);
+        font-family: Georgia;
+        color: rgb(75, 55, 37);
+        font-weight: bold;
+        border: 1px solid rgb(180, 204, 148);
+        border-radius: 8px;
+        cursor: pointer;
+    }
+        
+</style>
+    
+</body>
+</html>

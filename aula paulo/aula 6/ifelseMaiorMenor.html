@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis Maior e Menor</title>
+</head>
+<body>
+    <h1>Variáveis Maior e Menor</h1>
+    <br>
+    <input type="number" id="n1">
+    <br>
+    <input type="number" id="n2">
+    <br>
+    <input type="text" id="resultado">
+    <br>
+    <button onclick="verificar()">Verificar</button>
+
+    <script>
+        const verificar = function(){
+            let n1 = document.getElementById('n1').value
+            let n2 = document.getElementById('n2').value
+            let resultado = 
+
+            if(n1 >= n2){
+                resultado = n1 + " é maior que " + n2
+            } else {
+                resultado = n2 + " é menor que " + n1
+            }
+            document.getElementById('resultado').value = resultado
+        }
+    </script>
+</body>
+</html>

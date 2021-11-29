@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Funcionários</title>
+    <link rel="stylesheet" href="exercicio6.css"></link>
+</head>
+<body>
+    <header>
+        <h1>Gerenciamento de Funcionários</h1>
+    </header>
+
+    <div class="container">
+        <div class="form-head">
+            <h2>Cálculo do Salário</h2>
+
+        </div>
+
+        <div class="form-body">
+            <div class="form-control">
+                <input type="number" id="valor" placeholder="Valor da Hora"></input>
+            </div>
+
+            <div class="form-control">
+                <input type="number" id="horas" placeholder="Quantidade de Horas Trabalhadas"></input>
+            </div>
+
+            <div class="form-control">
+                <input type="number" id="salario" placeholder="Salário Bruto" readonLy class="input-readonly"></input>
+            </div>
+
+            <div class="form-control">
+                <input type="number" id="irrf" placeholder="IRRF" readonLy class="input-readonly"></input>
+            </div>
+
+            <div class="form-control">
+                <input type="number" id="salarioL" placeholder="Salário Líquido" readonLy class="input-readonly"></input>
+            </div>
+
+            <div class="form-control">
+                <button type="button" class="btn btn-success" onclick="calcular()">Calcular</button>
+            </div>
+
+            <div class="form-control">
+                <button type="button" class="btn btn-clear" onclick="limpar()">Limpar</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <ul>E-mail: contato@empresa.com
+            <br>
+            Telefone: (48) 99199-9929</ul>
+    </footer>
+
+    <script src="exercicio6.js"></script>
+    
+</body>
+</html>

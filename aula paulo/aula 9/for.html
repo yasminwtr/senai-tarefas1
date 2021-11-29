@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 5</title>
+</head>
+<body>
+    <h2>Exercício 5</h2>
+    <input type="number" id="n" placeholder="quantidade de nomes">
+    <button type="button" id="btnMostrar">Mostrar</button>
+    <p id="paragrafo"></p>
+
+
+    <script>
+        let numero = document.querySelector('#n')
+        let btnMostrar = document.querySelector('#btnMostrar')
+        let p = document.querySelector('#paragrafo')
+
+        btnMostrar.addEventListener('click', mostrarNomes)
+
+        function mostrarNomes(){
+            let resultado = "Listagem de nomes e quantidades <br>"
+
+            if(numero.value != ""){
+                for(let i = 0; i < numero.value; i++){
+                    let nome = prompt("Digite um nome")
+                    resultado += "Nome: " + nome + " (" + nome.length + ") <br>"
+                } 
+            } else {
+                resultado = "Informe a quantidade de nomes!"
+            }
+            
+            p.innerHTML = resultado
+        }
+
+    </script>
+    
+</body>
+</html>

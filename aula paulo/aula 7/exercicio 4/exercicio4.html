@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 4</title>
+  <link rel="stylesheet" href="exercicio4.css">
+</head>
+<body>
+  <header>
+    <h1>Petshop</h1>
+  </header>
+
+  <div class="container">
+    <input type="number" id="shampooA" placeholder="Valor Shampoo A">
+    <input type="number" id="shampooB" placeholder="Valor Shampoo B">
+    <input type="number" id="idade" placeholder="Idade">
+    <button onclick="valorTotal()">Calcular Desconto</button>
+    <input type="text"  readonly id="valorTotal" class:"resultado" placeholder="Valor Total">
+  </div>
+
+  <script>
+      const valorTotal = function(){
+      let shampooA = document.getElementById('shampooA').value
+      let shampooB = document.getElementById('shampooB').value   
+      let calcular = parseFloat(shampooA) + parseFloat(shampooB)
+
+      document.getElementById('valorTotal').value = calcular
+      
+      let idade = document.getElementById('idade').value
+
+      if(idade >= 18){
+        calcular = calcular * 0.95
+        document.getElementById('valorTotal').value = "O valor total com desconto é de R$" + (calcular)
+      } else if(idade < 18){
+        calcular = calcular * 0.90
+        document.getElementById('valorTotal').value = "O valor total com desconto é de R$" + (calcular)
+        
+      }
+  }
+  </script>
+
+</body>
+</html>

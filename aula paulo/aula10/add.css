@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans';
+    background-color: rgb(240, 240, 240);
+}
+
+header{
+    padding: 15px;
+    background-color: #667b80;
+    color: rgb(240, 240, 240);
+    text-align: center;
+}
+
+nav{
+    padding: 20px;
+    display: flex;
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 5%;
+}
+
+.nav-item{
+    padding-left: 30%;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.nav-item:hover{
+    color: #667b80;
+}
+
+.nav-item-active{
+    color: #2f4d55 !important;
+}
+
+.container{
+    padding: 10px;
+    color: #667b80;
+    text-align: center;
+    width: 30%;
+    border: 2px solid #667b80;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.container h3{
+    color: rgb(110, 110, 110);
+}
+
+.form{
+    width: 30%;
+}
+
+.input-controler{
+    margin: 10px;
+}
+
+.input-controler input{
+    width: 90%;
+    padding: 15px;
+    border: 1px solid;
+    outline: none;
+    font-family: 'Lucida Sans';
+    border: 2px solid #667b80;
+    border-radius: 10px;
+}
+
+.input-controler input:focus{
+    background-color: rgb(245, 245, 245);
+}
+
+.input-controler input::placeholder{
+    color: rgb(110, 110, 110);
+}
+
+.btn{
+    width: 30%;
+    margin-top: 17px;
+    margin-bottom: 7px;
+    background-color: #667b80;
+    color: white;
+    font-family: 'Lucida Sans';
+    border: 2px solid #46575c;
+    border-radius: 10px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #788e94;
+    border: 2px solid #586d74;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    nav{
+        display: block;
+    }
+    .nav-item{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .container{
+        padding: 10px;
+    }
+
+    .form{
+        width: 85%;
+    }
+}

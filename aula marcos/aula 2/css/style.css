@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family: Tahoma;
+    background-image: url(https://images3.alphacoders.com/975/thumb-1920-975999.png); 
+}
+
+.container{
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+    margin-top: 11pc;
+    border: 2px solid rgb(234, 212, 255);
+    border-radius: 100px;
+    text-align: center;
+    color: white;
+    background-image: url(https://i.pinimg.com/originals/f2/44/79/f24479553e8919bb806886e7454de13f.gif);
+}
+
+.input-controller input{
+    width: 50%;
+    padding: 5px;
+    margin: 6px;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    outline: none;
+    border-radius: 100px;
+    color: #3b2f53;
+    font-weight: bold;
+}
+
+.input-controller input:focus{
+    background-color: rgb(244, 217, 255);
+    border: 1px solid rgb(101, 73, 112);
+}
+
+.paragrafo{
+    font-size: small;
+    color: white;
+    font-weight: bold;
+}
+
+.btn{
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    border: 1px solid white;
+    border-radius: 100px;
+    font-family: Tahoma;
+    color: #544179;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+}
+
+.btn:hover{
+    background-color: black;
+    border: 1px solid black;
+}

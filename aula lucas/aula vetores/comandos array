@@ -1,0 +1,14 @@
+push - add um item no final do array
+pop - remove um item do final do array
+unshift - add um item no inicio do array
+shift - remove um item do inicio do array
+indexOf - procura um indice de um item no array e mostra a primeira vez que aparece
+lastIndexOf - mostra a ultima vez que aparece
+sort - ordena os elementos do array e retorna o array
+fill - preenche o array
+join
+slice
+
+filter - cria uma função e filtra os que não entram na condição
+map
+splice - altera um vetor, podendo adicionar ou remover (posição, qnts quer remover, adicionar)

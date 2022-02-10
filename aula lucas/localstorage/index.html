@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>localstorage</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
+    <input id="id_nome" placeholder="nome">
+    <input id="id_idade" placeholder="idade">
 
-<input type="text" id="id_nome"><br><br>
-<input type="text" id="id_idade"><br><br>
-<button onclick="salvaDados()">Salvar dados</button><br><br>
+    <button onclick="SalvaDados()">Salvar</button>
+    <br><br>
+    <input id="id_pesquisa" placeholder="nome a pesquisar">
 
-<input type="text" id="id_pesquisa"><br><br>
-<button onclick="pesquisa()">Pesquisar</button>
+    <button onclick="Pesquisa()">Pesquisar</button>
 
-<script src="script.js"></script>
+    <script src="localstorage.js"></script>
 </body>
 </html>

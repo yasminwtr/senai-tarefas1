@@ -1,14 +1,16 @@
-push - add um item no final do array
-pop - remove um item do final do array
-unshift - add um item no inicio do array
-shift - remove um item do inicio do array
-indexOf - procura um indice de um item no array e mostra a primeira vez que aparece
-lastIndexOf - mostra a ultima vez que aparece
-sort - ordena os elementos do array e retorna o array
-fill - preenche o array
-join
-slice
+.push() -> adiciona um elemento no final
+.pop() -> remove um elemento do final
+.unshift() -> adiciona um elemento no começo
+.shift() -> remove um elemento do começo
+.concat() -> concatena dois vetores
+.sort() -> ordena o vetor
+.indexOf() -> retorna o índice da primeira vez que o elemento aparece
+.lastIndexOf() -> retorna índice da última vez que o elemento aparece
 
-filter - cria uma função e filtra os que não entram na condição
-map
-splice - altera um vetor, podendo adicionar ou remover (posição, qnts quer remover, adicionar)
+
+.fill() -> preenche o vetor (ou parte dele) com um valor único
+.filter() -> cria um vetor com os elementos que passaram no filtro (função)
+.join() -> junta os elementos de um vetor em uma string e retorna ela
+.map() -> aplica uma função em cada elemento do vetor e retorna um novo vetor
+.slice() -> cria um novo vetor com parte do vetor original
+.splice() -> altera um vetor, podendo adicionar e remover elementos (posição, qnts quer remover, adicionar)

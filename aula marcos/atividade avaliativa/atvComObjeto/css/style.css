@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    background-color: #EFEACC;
+    font-family: 'Trebuchet MS'; 
+    background-image: url(https://media-public.canva.com/TDA8k/MACy4QTDA8k/6/tl.png);
+    background-size: 170px;
+}
+header{
+    padding: 15px;
+    background-color: #5C913B;
+    color: #EFEACC;
+    display: flex;
+}
+
+nav{
+    padding: 20px;
+    display: flex;
+    background-color:#67a143;
+}
+
+.nav-item{
+    margin-left: 30%;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #EFEACC;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+    color: rgb(0, 94, 47);
+}
+
+.nav-item-active{
+    color: rgb(0, 94, 47) !important;
+}
+
+.container{
+    text-align: center;
+    color: #DD2E44;
+    margin: auto;
+    margin-top: 50px;
+    width: 25%;
+    padding: 20px;
+    border: 2px solid #5C913A;
+    border-radius: 25px;
+    background-color: #EFEACC;
+}
+
+.form{
+    width: 25%;
+}
+
+.input-controler{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-controler input{
+    width: 90%;
+    padding: 15px;
+    border: 1px solid #5C913A;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    font-family: 'Trebuchet MS'; 
+}
+
+.input-controler input:focus{
+    background-color: #fff2f2;
+}    
+
+.input-controler input::placeholder{
+    color: #399130;
+}
+
+.btn{
+    width: 100%;
+    background-color: #4E9F3D;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 3px solid #4E9F3D;
+    cursor: pointer;
+    margin-top: 5px;
+    font-family: 'Trebuchet MS'; 
+}
+
+.btn:hover{
+    background-color: #67a143; 
+    text-align: center;
+    color: #ffffff;
+    border: 3px solid #67a143;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+@media screen and (max-width:500px){
+    nav{
+        display: block;
+    }
+
+    .nav-item{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .container{
+        padding: 10px;
+    }
+
+    .form{
+        width: 85%;
+    }
+}

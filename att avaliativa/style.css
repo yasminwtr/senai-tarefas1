@@ -1,0 +1,88 @@
+@font-face {
+    font-family: CoolveticaRG;
+    src: url('./fonts/coolvetica\ rg.otf'); 
+}
+
+body{
+    background-color: #f5f3f3;
+    margin: 0;
+    font-family: CoolveticaRG;
+}
+
+.header{
+    background-color: #754888;
+    padding: 0.5%;
+    color: #f5f3f3;
+    display: flex;
+    font-size: 22px;
+}
+
+input{
+    height: 1%;
+    padding: 0.5%;
+    margin-left: 1%;
+    margin-top: 3.40%;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+textarea:focus, input:focus {
+    outline: 0;
+}
+
+.container{
+    display: flex;
+    margin-top: 40px;
+}
+
+.text{
+    display: block;
+    width: 35%;
+    margin-right: 100px;
+    margin-left: 200px;
+    color: #754888;
+}
+
+p{
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 40px;
+    color: #214a5c;
+    margin-bottom: 0;
+}
+
+button{
+    padding: 12px;
+    color: #f5f3f3;
+    background-color: #3c83a1;
+    border-radius: 10px;
+    border: 2px solid #3c83a1;
+    cursor: pointer;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+button:hover{
+    color: #f5f3f3;
+    background-color: #31708b;
+    border-radius: 10px;
+    border: 2px solid #31708b;
+}
+
+.footer{
+    background-color: #754888;
+    margin-top: 40px;
+    padding: 2.6%;
+    display: flex;
+    color: #f5f3f3;
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+}
+
+.info{
+    margin-right: 10%;
+}
